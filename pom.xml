@@ -10,7 +10,8 @@
         <module>config-server</module>
 		<module>config-client-one</module>
 		<module>config-client-two</module>
-	</modules>
+        <module>local-server</module>
+    </modules>
     <packaging>pom</packaging>
 
 	<name>cloud-config-parent</name>
@@ -34,19 +35,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
 			<version>1.2.2.RELEASE</version>
 		</dependency>
-
 	</dependencies>
 
 
