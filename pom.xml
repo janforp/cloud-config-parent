@@ -11,7 +11,8 @@
 		<module>config-client-one</module>
 		<module>config-client-two</module>
         <module>local-server</module>
-    </modules>
+		<module>local-client-one</module>
+	</modules>
     <packaging>pom</packaging>
 
 	<name>cloud-config-parent</name>

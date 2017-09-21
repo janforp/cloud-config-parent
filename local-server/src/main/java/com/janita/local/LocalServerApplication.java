@@ -10,8 +10,8 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  */
 @SpringBootApplication
 @EnableConfigServer
-public class LocalApplication {
+public class LocalServerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(LocalApplication.class, args);
+        SpringApplication.run(LocalServerApplication.class, args);
     }
 }
