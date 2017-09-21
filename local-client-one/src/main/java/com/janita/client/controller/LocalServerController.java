@@ -13,9 +13,16 @@ public class LocalServerController {
 
     @Value("localClientOne")
     private String localClientOne;
+    @Value("localClientOnePrivate")
+    private String localClientOnePrivate;
 
     @GetMapping("/localClientOne")
     public String localClientOne() {
         return localClientOne;
+    }
+
+    @GetMapping("/localClientOnePrivate")
+    public String localClientOnePrivate() {
+        return localClientOnePrivate;
     }
 }
